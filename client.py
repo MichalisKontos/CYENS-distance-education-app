@@ -39,13 +39,13 @@ if toConnect:
     Input = input('Your ID: ')
     ClientSocket.send(str.encode(Input))
 
-#-----------------------------
+#------------------------------
 # Load ONNX model
 load_model = onnx.load('gnet15D.onnx')
 model = prepare(load_model) 
 
 actions = ('Absent', 'Attending', 'Hand raising', 'Looking elsewhere', 'Telephone call', 'Using phone', 'Writing')
-#-----------------------------
+#------------------------------
 
 # Start webcam video
 cap = cv2.VideoCapture(0)
