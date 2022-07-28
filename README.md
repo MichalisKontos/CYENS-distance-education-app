@@ -30,13 +30,19 @@ pip install numpy
 ```bash
 python -m pip install numpy
 ```
-Note: you can choose what version to install by writing package==version. For example, numpy==1.22.4
+Note: you can choose what version to install by writing package==version. For example, numpy==1.22.4.
+
 5. The needed packages are:
 
+
     • numpy
+    
     • onnx
+    
     • onnx-tf
+    
     • opencv-python
+    
     • Pillow
 
 ## Run program:
